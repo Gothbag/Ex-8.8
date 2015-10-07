@@ -1,4 +1,5 @@
 import java.util.Map;
+import java.util.SortedMap;
 import java.util.TreeMap;
 
 /*
@@ -14,7 +15,7 @@ public class CarSortedMap {
 		
 		//1
 		//declarations
-		Map<String, Car> carMap = new TreeMap<String, Car>();
+		SortedMap<String, Car> carMap = new TreeMap<String, Car>();
 		
 		//2
 		//we add elements to the set
